@@ -38,7 +38,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_REGION: eu-west-1
       IMAGE: 244530008913.dkr.ecr.eu-west-1.amazonaws.com/wine001-private:latest
-      PREFIX: wine001
+      PREFIX: wine001-test
     #    TF_LOG: trace
     steps:
       - uses: actions/checkout@v3
