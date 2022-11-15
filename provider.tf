@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "pgr301-2021-terraform-state"
-    key    = "wine001/wine-hello.state"
+    key    = "wine001-test/wine-hello.state"
     region = "eu-north-1"
   }
 }
